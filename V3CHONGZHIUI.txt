@@ -11,6 +11,48 @@ Fluent:Notify({
     local sound = Instance.new("Sound", workspace)
 sound.SoundId = "rbxassetid://6647898215"
 sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -27,10 +69,10 @@ local OrionLib = {
                 Default = {
                         Main = Color3.fromRGB(0, 0, 0),--黑色主要区域
                         Second = Color3.fromRGB(0, 0, 0),--红色选项栏和功能
-                        Stroke = Color3.fromRGB(0, 25, 50),--绿色周围边框
+                        Stroke = Color3.fromRGB(192, 192, 192),--绿色周围边框
                         Divider = Color3.fromRGB(255, 255, 255),--玩家蓝色圈圈颜色
                         Text = Color3.fromRGB(255, 255, 255),--字颜色
-                        TextDark = Color3.fromRGB(0, 255, 0)--不知道
+                        TextDark = Color3.fromRGB(255, 255, 0)--不知道
                 }
         },
         SelectedTheme = "Default",
@@ -661,6 +703,36 @@ function OrionLib:MakeWindow(WindowConfig)
         Duration = 5 
     })
     local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
+sound.SoundId = "rbxassetid://6647898215"
+sound:Play()
+local sound = Instance.new("Sound", workspace)
 sound.SoundId = "rbxassetid://6647898215"
 sound:Play()
                 WindowConfig.CloseCallback()
