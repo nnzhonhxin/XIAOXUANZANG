@@ -2,12 +2,7 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 --那咋了
-Fluent:Notify({
-        Title = "XK脚本中心丨UI通知丨V3",
-        Content = "提示",
-        SubContent = "验证成功", 
-        Duration = 5 
-    })
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "XK脚本中心UI";Text = "验证中……";Icon = "rbxassetid://121203363140066"})Duration = 8;
     local sound = Instance.new("Sound", workspace)
 sound.SoundId = "rbxassetid://6647898215"
 sound:Play()
@@ -696,12 +691,7 @@ function OrionLib:MakeWindow(WindowConfig)
                 MainWindow.Visible = false
                 MobileReopenButton.Visible = true
                 UIHidden = true
-                Fluent:Notify({
-        Title = "XK脚本中心丨提示丨V3",
-        Content = "已移除此UI",
-        SubContent = "点击圈圈可再次使用", 
-        Duration = 5 
-    })
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "XK脚本中心";Text = "UI关闭成功";Icon = "rbxassetid://121203363140066"})Duration = 8;
     local sound = Instance.new("Sound", workspace)
 sound.SoundId = "rbxassetid://6647898215"
 sound:Play()
